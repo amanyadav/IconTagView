@@ -1,0 +1,36 @@
+<resources>
+    <declare-styleable name="TagLayout">
+
+        <!-- The tag view outline border color. -->
+        <attr name="net_borderColor" format="color" />
+        <!-- The tag view text color. -->
+        <attr name="net_textColor" format="color" />
+        <!-- The tag view background color. -->
+        <attr name="net_backgroundColor" format="color" />
+
+        <!-- The tag view background color, when the tag view is being pressed. -->
+        <attr name="net_pressedBackgroundColor" format="color" />
+
+        <attr name="net_iconBackgroundColor" format="color" />
+
+        <attr name="net_iconColor" format="color" />
+
+        <attr name="net_randomIconBackgroundColor" format="boolean" />
+
+        <!-- The tag view outline border stroke width. -->
+        <attr name="net_borderStrokeWidth" format="dimension" />
+        <!-- The tag view text size. -->
+        <attr name="net_textSize" format="dimension" />
+        <attr name="net_circlePaddingFactor" format="float" />
+        <attr name="net_iconPadding" format="dimension" />
+
+        <attr name="net_horizontalSpacing" format="dimension" />
+        <attr name="net_verticalSpacing" format="dimension" />
+        <attr name="net_horizontalPadding" format="dimension" />
+        <attr name="net_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="tagLayoutStyle" format="reference" />
+    </declare-styleable>
+</resources>

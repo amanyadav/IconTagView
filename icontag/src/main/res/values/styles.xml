@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TagLayout">
+        <item name="net_borderColor">#49C120</item>
+        <item name="net_textColor">#49C120</item>
+        <item name="net_backgroundColor">#FFFFFF</item>
+        <item name="net_randomIconBackgroundColor">true</item>
+        <item name="net_iconBackgroundColor">#FF0000</item>
+        <item name="net_borderStrokeWidth">0.5dp</item>
+        <item name="net_circlePaddingFactor">1.0</item>
+        <item name="net_iconPadding">6dp</item>
+        <item name="net_textSize">15dp</item>
+        <item name="net_horizontalSpacing">10dp</item>
+        <item name="net_verticalSpacing">10dp</item>
+        <item name="net_horizontalPadding">10dp</item>
+        <item name="net_verticalPadding">10dp</item>
+    </style>
+
+    <style name="TagLayout.Small" parent="TagLayout">
+        <item name="net_textSize">10sp</item>
+        <item name="net_horizontalSpacing">6dp</item>
+        <item name="net_verticalSpacing">3dp</item>
+        <item name="net_horizontalPadding">8dp</item>
+        <item name="net_verticalPadding">2dp</item>
+    </style>
+
+    <style name="TagLayout.Large" parent="TagLayout">
+        <item name="net_borderStrokeWidth">1dp</item>
+        <item name="net_textSize">15sp</item>
+        <item name="net_horizontalSpacing">9dp</item>
+        <item name="net_verticalSpacing">5dp</item>
+        <item name="net_horizontalPadding">14dp</item>
+        <item name="net_verticalPadding">4dp</item>
+    </style>
+
+    <style name="TagLayout.Beauty_Red" parent="TagLayout">
+        <item name="net_borderColor">#FF0000</item>
+        <item name="net_textColor">#FF0000</item>
+    </style>
+
+    <style name="TagLayout.Beauty_Red.Inverse" parent="TagLayout">
+        <item name="net_borderColor">#FF3D7F</item>
+        <item name="net_textColor">#FFFFFF</item>
+        <item name="net_backgroundColor">#FF3D7F</item>
+    </style>
+</resources>
