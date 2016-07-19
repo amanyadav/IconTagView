@@ -1,4 +1,4 @@
-# CompassView
+# IconTagView
 
 A custom view library to show categories of item which user can select one. This type of view is already used in apps like True Caller, Youtube and Gmail. Now you can also use this in your app.
 
