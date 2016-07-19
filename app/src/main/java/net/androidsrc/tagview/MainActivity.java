@@ -26,10 +26,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private TagData[] getData(){
-        TagData[] data=new TagData[3];
+        TagData[] data=new TagData[9];
         data[0]=new TagData("Person",R.drawable.ic_person_black_24dp);
         data[1]=new TagData("School",R.drawable.ic_school_black_24dp);
         data[2]=new TagData("Share This",R.drawable.ic_share_black_24dp);
+        data[3]=new TagData("Aman",R.drawable.ic_person_black_24dp);
+        data[4]=new TagData("Yadav",R.drawable.ic_school_black_24dp);
+        data[5]=new TagData("Says",R.drawable.ic_share_black_24dp);
+        data[6]=new TagData("Hello",R.drawable.ic_person_black_24dp);
+        data[7]=new TagData("To",R.drawable.ic_school_black_24dp);
+        data[8]=new TagData("All",R.drawable.ic_share_black_24dp);
         return data;
     }
 }
